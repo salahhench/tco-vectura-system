@@ -10,8 +10,6 @@ The tool is built using the `cosapp` library to create a modular and extensible 
 2.  **OPEX (Operational Expenditure)**: The annual running costs.
 3.  **RV (Residual Value)**: The asset's value at the end of its operational life.
 
-The final TCO is calculated as: `TCO = (Sum of Annual CAPEX) + (Sum of Annual OPEX) - RV`.
-
 ## TCO Framework Components
 
 The calculation is broken down into the following detailed modules, as specified in the project report.
@@ -113,13 +111,3 @@ git config --global user.email "you@example.com"
 git clone https://github.com/salahhench/tco-eco4impact.git
 cd tco-eco4impact
 ```
-
-### View and Switch Branches
-- List all local and remote branches:
-    ```bash
-    git branch -a
-    ```
-- Switch to an existing branch:
-    ```bash
-    git checkout <branch-name>
-    ```
